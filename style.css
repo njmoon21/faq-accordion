@@ -79,6 +79,11 @@ body {
     margin: 1.5rem;
 }
 
+hr {
+	border: 1px solid var(--clr-light-pink);
+	opacity: 75%;
+}
+
 .container {   
     display: grid;
     gap: 1.25rem;
@@ -86,12 +91,33 @@ body {
     align-items: center;
     padding: 1.5rem;
     background-color: var(--clr-white);
-    max-width: 900px;
-    border-radius: .75rem;
+    max-width: 525px;
+    border-radius: .5rem;
+}
+
+.faq__title-section {
+	display: flex;
+	gap: 1.25rem;
+	align-items: center;
+}
+
+.faq__title-section svg {
+	width: 1.5rem;
+}
+
+.faq__section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .faq__question {
     font-size: 1rem;
+}
+
+.faq__section > svg {
+	width: 2rem;
+	flex: 0 0 auto;
 }
 
 .faq__answer {
