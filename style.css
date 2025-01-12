@@ -81,9 +81,19 @@ body {
     margin: 1.5rem;
 }
 
+@media (min-width: 375px) {
+    body {
+        background-image: url(/assets/images/background-pattern-desktop.svg);
+    }
+}
+
 hr {
 	border: 1px solid var(--clr-light-pink);
 	opacity: 75%;
+}
+
+#faq__button1, #faq__button2, #faq__button3, #faq__button4 {
+	cursor: pointer;
 }
 
 .container {   
