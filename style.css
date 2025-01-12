@@ -72,6 +72,8 @@ body {
     font-size: var(--fs-16);
     color: var(--clr-dark-purple);
     background-color: var(--clr-light-pink);
+    background-image: url(/assets/images/background-pattern-mobile.svg);
+    background-repeat: no-repeat;
 
     display: grid;
     min-height: 100vh;
